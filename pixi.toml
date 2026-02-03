@@ -1,0 +1,26 @@
+[workspace]
+channels = ["conda-forge"]
+name = "unsupervized-learning"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.11.*"
+jupyterlab = ">=4.4.7,<5"
+numpy = "<2.0"
+pandas = ">=2.3.2,<3"
+matplotlib = ">=3.10.6,<4"
+scikit-image = ">=0.25.2,<0.26"
+scikit-learn = ">=1.7.2,<2"
+pytorch = ">=2.7.1,<3"
+notebook = ">=7.4.5,<8"
+pip = ">=25.2,<26"
+astropy = ">=7.1.0,<8"
+scipy = ">=1.16.2,<2"
+simpleitk = ">=2.5.3,<3"
+
+
+[pypi-dependencies]
+tensorflow = "==2.16.*"

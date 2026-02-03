@@ -1,0 +1,10 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+*.tif
+*.tiff
+data/
+outputs/
+_scratch/
+
+__pycache__/
