@@ -445,9 +445,6 @@ def overlay_labels_on_slice(x2d, n2d, lab2d, title_prefix="", alpha=0.45):
     plt.tight_layout()
     plt.show()
 
-
-
-
 # =========================
 # Main
 # =========================
