@@ -44,7 +44,7 @@ The current implementation performs the following steps:
    - Binary masking to exclude air and background regions.
 
 3. **Registration**
-   - Rigid registration of XCT (moving) to NCT (fixed).
+   - Rigid/Affine registration of XCT (moving) to NCT (fixed).
    - Mattes Mutual Information metric (SimpleITK).
    - Multi-resolution optimization strategy.
 
