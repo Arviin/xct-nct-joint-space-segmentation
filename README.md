@@ -115,7 +115,7 @@ Input paths and parameters are currently specified inside the script.
 
 ## Author
 
-Fazel (Arvin) Mirzaei  
+Arvin (Fazel) Mirzaei  
 Paul Scherrer Institute (PSI)  
 Center for Neutron and Muon Sciences
 
