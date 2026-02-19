@@ -1,6 +1,6 @@
 # XCT–NCT Joint-Space Segmentation
 
-This repository provides a reference implementation for **unsupervised analysis of co-registered
+This repository provides a demo implementation for **unsupervised analysis of co-registered
 X-ray computed tomography (XCT) and neutron computed tomography (NCT) data** using their **joint
 information space**.
 
@@ -14,8 +14,19 @@ software package.
 
 XCT and NCT provide **complementary contrast mechanisms**:
 
-- XCT is primarily sensitive to electron density and atomic number.
-- NCT is sensitive to nuclear interactions and, in many materials, light elements (e.g. hydrogen).
+- In X-ray computed tomography (XCT), typically using photon energies from tens to a few hundred keV, 
+  image contrast is governed by the energy-dependent linear attenuation coefficient μ(E). 
+  In this regime μ(E) is dominated by photoelectric absorption (strongly Z-sensitive, especially at lower energies) 
+  and Compton scattering (approximately proportional to electron density), so XCT contrast often correlates 
+  with density and effective atomic number.
+
+- In neutron computed tomography (NCT) with cold/thermal neutrons, transmission contrast is governed by the 
+  macroscopic total cross-section Σt(E) = N·σt(E), where σt includes both absorption and scattering out of the beam. 
+  Because neutron cross-sections are isotope-specific and strongly energy-dependent, neutron contrast does not scale 
+  monotonically with atomic number and can be particularly sensitive to certain elements/isotopes (e.g., hydrogen), 
+  with additional structure such as Bragg edges possible in crystalline materials.
+
+
 
 When XCT and NCT volumes are spatially co-registered, each voxel can be represented as a **pair of
 intensity values** `(I_XCT, I_NCT)`. This defines a **joint (bivariate) intensity space**, analogous to
