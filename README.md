@@ -47,8 +47,8 @@ This repository implements a workflow that:
 The current implementation performs the following steps:
 
 1. **Input**
-   - Reconstructed XCT and NCT volumes provided as stacks of 2D slices (`slice_###.tif`).
-   - Volumes are assumed to correspond to approximately the same physical region.
+   - Reconstructed XCT and NCT volumes provided as stacks of 2D slices.
+   - Volumes are assumed (and have to be) to correspond to approximately the same physical region.
 
 2. **Preprocessing**
    - Robust percentile-based intensity normalization (per modality).
