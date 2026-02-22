@@ -408,13 +408,6 @@ def overlay_labels_on_slice(x2d, n2d, lab2d, title_prefix="", alpha=0.45):
     plt.show()
 
 
-
-
-   
-
-
-
-
 def overlay_labels_on_slice(x2d, n2d, lab2d, title_prefix="", alpha=0.45):
     """
     Show: XCT, NCT, label map, and overlay on XCT.
@@ -528,11 +521,6 @@ def main():
         x2d, n2d, lab2d,
         title_prefix=f"(z={z_used}, k={k})"
     )
-
-
-
-
-
 
 
     print(f"Total time: {time.time()-t_all:.2f}s")
