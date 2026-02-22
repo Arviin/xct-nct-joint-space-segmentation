@@ -19,7 +19,7 @@ XCT_FOLDER = r"D:\mpc3091-Qianru\0_data\04_BdCs_Ocson\BdC02_tp0\xct_small"   # <
 NCT_FOLDER = r"D:\mpc3091-Qianru\0_data\04_BdCs_Ocson\BdC02_tp0\nct_small"   # <-- put your NCT folder here
 
 # If you truly don't know voxel size but they are the same, set spacing = (1,1,1)
-# (This is fine for registration + bivariate histogram, but not for reporting physical units.)
+# (Note: this is fine for registration + bivariate histogram, but not for reporting physical units.)
 SPACING = (1.0, 1.0, 1.0)  # (sx, sy, sz)
 
 
@@ -39,7 +39,7 @@ def list_tifs(folder):
 
     for f in os.listdir(folder):
         if f.startswith("._"):
-            continue  # macOS sidecar files
+            continue  
 
         m = pattern.match(f)
         if m:
