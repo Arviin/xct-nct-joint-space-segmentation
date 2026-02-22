@@ -13,7 +13,7 @@ from sklearn.cluster import KMeans
 
 
 # =========================
-# USER INPUT (placeholders)
+# USER INPUT 
 # =========================
 XCT_FOLDER = r"D:\mpc3091-Qianru\0_data\04_BdCs_Ocson\BdC02_tp0\xct_small"   # <-- put your XCT folder here
 NCT_FOLDER = r"D:\mpc3091-Qianru\0_data\04_BdCs_Ocson\BdC02_tp0\nct_small"   # <-- put your NCT folder here
