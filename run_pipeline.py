@@ -15,8 +15,8 @@ from sklearn.cluster import KMeans
 # =========================
 # USER INPUT 
 # =========================
-XCT_FOLDER = r"D:\mpc3091-Qianru\0_data\04_BdCs_Ocson\BdC02_tp0\xct_small"   # <-- put your XCT folder here
-NCT_FOLDER = r"D:\mpc3091-Qianru\0_data\04_BdCs_Ocson\BdC02_tp0\nct_small"   # <-- put your NCT folder here
+XCT_FOLDER =    # <-- put your XCT folder here
+NCT_FOLDER =    # <-- put your NCT folder here
 
 # If you truly don't know voxel size but they are the same, set spacing = (1,1,1)
 # (Note: this is fine for registration + bivariate histogram, but not for reporting physical units.)
